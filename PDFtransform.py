@@ -55,7 +55,7 @@ def pdf_image(pdf_file, img_path, zoom_x=4, zoom_y=4, rotation_angle=0):  # 转�
     pdf.close()
 
 
-png_output_path = ('require/' + str(get_filename(pdf_path)) + '/png/')  # 主程序模块
+png_output_path = ('require/' + str(get_filename(pdf_path)) + '/')  # 主程序模块
 print('正在创建目录')
 while_num = 0
 while os.path.exists(str(png_output_path)) is True:
@@ -64,8 +64,9 @@ while os.path.exists(str(png_output_path)) is True:
 else:
     os.makedirs(str(png_output_path))
 print('目录创建完毕')
+rel_output_path = png_output_path
 print('即将开始转换图片…')
-pdf_image(pdf_path, png_output_path, 5, 5, 0)
+pdf_image(pdf_path, png_output_path, 10, 10, 0)
 print('转换图片完成')  # 图片转换标志
 transform = 1
 pdf_page = (get_filepage(pdf_path))

@@ -1,0 +1,4 @@
+D:\WeiMing\venv\Scripts\python.exe D:/WeiMing/OCR.py
+{'paragraphs_result': [{'words_result_idx': [0]}, {'words_result_idx': [1]}, {'words_result_idx': [2]}, {'words_result_idx': [3]}, {'words_result_idx': [4]}, {'words_result_idx': [5]}, {'words_result_idx': [6]}, {'words_result_idx': [7, 8]}, {'words_result_idx': [9]}, {'words_result_idx': [10]}, {'words_result_idx': [11, 12, 13, 14, 15]}], 'paragraphs_result_num': 11, 'words_result': [{'words': '有所權版'}, {'words': '印翻許不'}, {'words': '寄售處'}, {'words': '零出出宗出出宗常'}, {'words': '印'}, {'words': '中華民國廿四年十一月初版'}, {'words': '刷'}, {'words': '西山八大處柳溪山房'}, {'words': '北東水胡同一田宅'}, {'words': '者'}, {'words': '著作者'}, {'words': '南一六七三號'}, {'words': '中華印書局'}, {'words': '前外梅竹斜街'}, {'words': '樂陵田樹濕'}, {'words': '定價大肆角'}], 'words_result_num': 16, 'log_id': 1550846960337412873}
+
+
